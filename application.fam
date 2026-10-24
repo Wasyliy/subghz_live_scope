@@ -1,0 +1,11 @@
+App(
+    appid="subghz_live_scope",
+    name="SubGHz Live Scope",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="subghz_live_scope_app",
+    requires=["gui"],
+    stack_size=4 * 1024,
+    fap_description="Live raw-pulse oscilloscope + RSSI for SubGHz, with automatic band hopping. Receive only, never transmits.",
+    fap_version="1.0",
+    fap_category="Sub-GHz",
+)
